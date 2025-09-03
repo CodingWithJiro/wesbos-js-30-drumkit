@@ -1,6 +1,7 @@
 //* DRUM.JS SCRIPT
 const buttons = document.querySelectorAll(".drum__button");
 const sounds = document.querySelectorAll(".drum__audio");
+const keys = ["q", "w", "e", "a", "s", "d", "z", "x", "c"];
 
 function playSound(buttonElement) {
   const currentSound = [...sounds].find(
@@ -26,7 +27,9 @@ function initDrumButtons() {
 
     window.addEventListener("keydown", (e) => {
       const key = e.key;
-      playSoundThruKey(key);
+      if (keys.includes(key)) {
+        playSoundThruKey(key);
+      }
     });
   });
 }
