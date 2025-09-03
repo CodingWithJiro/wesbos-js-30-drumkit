@@ -18,4 +18,6 @@ function initDrumButtons() {
   });
 }
 
-export function initDrum() {}
+export function initDrum() {
+  initDrumButtons();
+}
