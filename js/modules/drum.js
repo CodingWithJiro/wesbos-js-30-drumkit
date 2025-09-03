@@ -2,9 +2,19 @@
 const buttons = document.querySelectorAll(".drum__button");
 const sounds = document.querySelectorAll(".drum__audio");
 
+function playSound(buttonElement) {
+  const currentSound = sounds.querySelector(
+    `[data-key="${buttonElement.dataset.key}"]`
+  );
+  currentSound.currentTime = 0;
+  currentSound.play();
+}
+
 function initDrumButtons() {
   buttons.forEach((button) => {
-    button.addEventListener("click", handleClickDrumButtons);
+    button.addEventListener("click", () => {
+      playSound(button);
+    });
   });
 }
 
