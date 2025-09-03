@@ -64,9 +64,17 @@ INSERT LIST OF PROJECT FEATURES
 
 ---
 
-## 📚 Included Projects
+## 🔀 Development Workflow
 
-INSERT A LIST AND ITS DESCRIPTION IF I HAVE INCLUDED PROJECTS IN THIS PROJECT
+[![Network Graph](./assets/img/network-graph.png)](https://github.com/CodingWithJiro/wesbos-js-30-drumkit/network)
+
+> Click to view the full branch and merge history
+
+This project adapts a [granular branching and commit workflow](https://github.com/CodingWithJiro/wesbos-js-30-drumkit/network) to simulate team collaboration. Each feature, fix, documentation, and chore is tracked in its own branch with descriptive commits.
+
+Each [pull request](https://github.com/CodingWithJiro/wesbos-js-30-drumkit/pulls?q=is%3Apr+is%3Aclosed) I created contains a clear description, change list, screenshots for UI updates, and reviewer notes.
+
+_This ensures I maintain a professional workflow, even as a solo developer._
 
 ---
 
