@@ -2,6 +2,10 @@
 const buttons = document.querySelectorAll(".drum__button");
 const sounds = document.querySelectorAll(".drum__audio");
 
-console.log(sounds);
+function initDrumButtons() {
+  buttons.forEach((button) => {
+    button.addEventListener("click", handleClickDrumButtons);
+  });
+}
 
 export function initDrum() {}
