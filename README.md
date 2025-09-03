@@ -118,6 +118,8 @@ Or you can check out the 👉 [live website here](LINK)
 
 ## 📊 Performance Report
 
+[![Lighthouse Report Preview](./assets/img/lighthouse-report.png)](./assets/downloads/lighthouse-performance-report.pdf)
+
 A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./assets/downloads/lighthouse-performance-report.pdf).
 
 ---
