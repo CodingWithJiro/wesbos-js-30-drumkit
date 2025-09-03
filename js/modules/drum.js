@@ -24,7 +24,7 @@ function initDrumButtons() {
       playSound(button);
     });
 
-    button.addEventListener("keydown", (e) => {
+    window.addEventListener("keydown", (e) => {
       const key = e.key;
       playSoundThruKey(key);
     });
