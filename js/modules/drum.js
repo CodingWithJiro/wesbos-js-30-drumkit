@@ -15,6 +15,10 @@ function initDrumButtons() {
     button.addEventListener("click", () => {
       playSound(button);
     });
+
+    button.addEventListener("keydown", (e) => {
+      const key = e.key;
+    });
   });
 }
 
