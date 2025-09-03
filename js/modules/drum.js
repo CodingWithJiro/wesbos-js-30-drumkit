@@ -10,6 +10,14 @@ function playSound(buttonElement) {
   currentSound.play();
 }
 
+function playSoundThruKey(keyString) {
+  const currentSound = [...sounds].find(
+    (sound) => sound.dataset.key === keyString
+  );
+  currentSound.currentTime = 0;
+  currentSound.play();
+}
+
 function initDrumButtons() {
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -18,6 +26,7 @@ function initDrumButtons() {
 
     button.addEventListener("keydown", (e) => {
       const key = e.key;
+      playSoundThruKey(key);
     });
   });
 }
