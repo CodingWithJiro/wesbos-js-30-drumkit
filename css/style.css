@@ -125,6 +125,10 @@ ol {
   display: none;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 /** || GENERAL STYLES */
 html {
   font-size: var(--FS);
