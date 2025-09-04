@@ -183,9 +183,10 @@ body {
   color: var(--FONT-COLOR-THEME-ICON-DARK);
 }
 
-/** || FOOTER */
-
 /** || MAIN */
+.drum__icon {
+  width: 1rem;
+}
 
 /** || MEDIA QUERY (DEVICE WIDTH) */
 @media screen and (min-width: 23.4375rem) {
