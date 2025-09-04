@@ -137,6 +137,10 @@ body {
   background-image: var(--GRADIENT-BODY);
 }
 
+.container {
+  padding-inline: 1.5rem;
+}
+
 /** || HEADER */
 .theme {
   box-shadow: var(--BOX-SHADOW-THEME);
