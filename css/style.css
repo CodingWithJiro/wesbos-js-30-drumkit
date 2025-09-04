@@ -70,7 +70,11 @@ ol {
 
   /* COLORS */
   --BGCOLOR: #060621;
-  --FONT-COLOR: #000;
+  --FONT-COLOR-HEADER-TITLE: #f5f5f5;
+  --FONT-COLOR-HEADER-TAGLINE: #f5f5f5;
+  --FONT-COLOR-DRUM-KEY: #f5f5f5;
+  --FONT-COLOR-FOOTER-TAGLINE: #f5f5f5;
+  --COLOR-DRUM-ICON: #f5f5f5;
   --GRADIENT-COLOR-BODY-1: #242957;
   --GRADIENT-COLOR-BODY-2: #060621;
 
@@ -131,7 +135,6 @@ body {
   min-height: 100vh;
   background-color: var(--BGCOLOR);
   background-image: var(--GRADIENT-BODY);
-  color: var(--FONT-COLOR);
 }
 
 /** || HEADER */
@@ -193,25 +196,30 @@ body {
 
 .header__title {
   font-family: var(--FF-TITLE);
+  color: var(--FONT-COLOR-HEADER-TITLE);
 }
 
 .header__tagline {
   font-family: var(--FF-BODY);
+  color: var(--FONT-COLOR-HEADER-TAGLINE);
 }
 
 /** || MAIN */
 .drum__icon {
   width: 1rem;
   height: auto;
+  color: var(--COLOR-DRUM-ICON);
 }
 
 .drum__key {
   font-family: var(--FF-TITLE);
+  color: var(--FONT-COLOR-DRUM-KEY);
 }
 
 /** || FOOTER */
 .footer__tagline {
   font-family: var(--FF-BODY);
+  color: var(--FONT-COLOR-FOOTER-TAGLINE);
 }
 
 /** || MEDIA QUERY (DEVICE WIDTH) */
