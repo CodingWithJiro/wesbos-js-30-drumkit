@@ -227,6 +227,10 @@ body {
 }
 
 /** || MAIN */
+.main {
+  margin-block-end: 3rem;
+}
+
 .drum__container {
   background-color: var(--BGCOLOR-DRUM-CONTAINER);
   display: grid;
