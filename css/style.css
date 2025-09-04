@@ -48,6 +48,14 @@ ol {
   font-display: swap;
   font-family: "Roboto";
   font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/roboto-v48-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   src: url("../assets/fonts/roboto-v48-latin-700.woff2") format("woff2");
 }
@@ -61,8 +69,14 @@ ol {
   --FS: 1rem;
 
   /* COLORS */
-  --BGCOLOR: #fff;
-  --FONT-COLOR: #000;
+  --BGCOLOR: #060621;
+  --FONT-COLOR-HEADER-TITLE: #f5f5f5;
+  --FONT-COLOR-HEADER-TAGLINE: #f5f5f5;
+  --FONT-COLOR-DRUM-KEY: #f5f5f5;
+  --FONT-COLOR-FOOTER-TAGLINE: #f5f5f5;
+  --COLOR-DRUM-ICON: #f5f5f5;
+  --GRADIENT-COLOR-BODY-1: #242957;
+  --GRADIENT-COLOR-BODY-2: #060621;
 
   /* THEME TOGGLE COLORS */
   --FONT-COLOR-THEME-ICON-LIGHT: #333;
@@ -76,6 +90,12 @@ ol {
 
   /* SHADOWS */
   --BOX-SHADOW-THEME: 0 0 3px var(--SHADOW-COLOR-THEME);
+
+  /* GRADIENTS */
+  --GRADIENT-BODY: radial-gradient(
+    var(--GRADIENT-COLOR-BODY-1),
+    var(--GRADIENT-COLOR-BODY-2)
+  );
 }
 
 /** || UTILITY CLASSES */
@@ -114,7 +134,7 @@ html {
 body {
   min-height: 100vh;
   background-color: var(--BGCOLOR);
-  color: var(--FONT-COLOR);
+  background-image: var(--GRADIENT-BODY);
 }
 
 /** || HEADER */
@@ -174,9 +194,33 @@ body {
   color: var(--FONT-COLOR-THEME-ICON-DARK);
 }
 
-/** || FOOTER */
+.header__title {
+  font-family: var(--FF-TITLE);
+  color: var(--FONT-COLOR-HEADER-TITLE);
+}
+
+.header__tagline {
+  font-family: var(--FF-BODY);
+  color: var(--FONT-COLOR-HEADER-TAGLINE);
+}
 
 /** || MAIN */
+.drum__icon {
+  width: 1rem;
+  height: auto;
+  color: var(--COLOR-DRUM-ICON);
+}
+
+.drum__key {
+  font-family: var(--FF-TITLE);
+  color: var(--FONT-COLOR-DRUM-KEY);
+}
+
+/** || FOOTER */
+.footer__tagline {
+  font-family: var(--FF-BODY);
+  color: var(--FONT-COLOR-FOOTER-TAGLINE);
+}
 
 /** || MEDIA QUERY (DEVICE WIDTH) */
 @media screen and (min-width: 23.4375rem) {
