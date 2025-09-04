@@ -183,9 +183,27 @@ body {
   color: var(--FONT-COLOR-THEME-ICON-DARK);
 }
 
+.header__title {
+  font-family: var(--FF-TITLE);
+}
+
+.header__tagline {
+  font-family: var(--FF-BODY);
+}
+
 /** || MAIN */
 .drum__icon {
   width: 1rem;
+  height: auto;
+}
+
+.drum__key {
+  font-family: var(--FF-TITLE);
+}
+
+/** || FOOTER */
+.footer__tagline {
+  font-family: var(--FF-BODY);
 }
 
 /** || MEDIA QUERY (DEVICE WIDTH) */
