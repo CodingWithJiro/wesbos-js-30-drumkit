@@ -70,11 +70,17 @@ ol {
 
   /* COLORS */
   --BGCOLOR: #060621;
+  --BGCOLOR-DRUM-CONTAINER: #2c2e43;
   --FONT-COLOR-HEADER-TITLE: #f5f5f5;
   --FONT-COLOR-HEADER-TAGLINE: #f5f5f5;
   --FONT-COLOR-DRUM-KEY: #f5f5f5;
   --FONT-COLOR-FOOTER-TAGLINE: #f5f5f5;
   --COLOR-DRUM-ICON: #f5f5f5;
+  --BORDER-COLOR-DRUM-CONTAINER: rgba(255, 255, 255, 0.12);
+  --SHADOW-COLOR-DRUM-CONTAINER-1: hsl(235, 21%, 18%);
+  --SHADOW-COLOR-DRUM-CONTAINER-2: rgba(0, 0, 0, 0.3);
+  --SHADOW-COLOR-DRUM-CONTAINER-3: rgba(0, 0, 0, 0.07);
+  --SHADOW-COLOR-DRUM-CONTAINER-4: rgba(255, 255, 255, 0.05);
   --GRADIENT-COLOR-BODY-1: #242957;
   --GRADIENT-COLOR-BODY-2: #060621;
 
@@ -87,10 +93,14 @@ ol {
 
   /* BORDERS */
   --BORDER-THEME-BUTTON: 1px solid var(--BORDER-COLOR-THEME-BUTTON);
+  --BORDER-DRUM-CONTAINER: 2px solid var(--BORDER-COLOR-DRUM-CONTAINER);
 
   /* SHADOWS */
   --BOX-SHADOW-THEME: 0 0 3px var(--SHADOW-COLOR-THEME);
-
+  --BOX-SHADOW-DRUM-CONTAINER: 0 24px 0 var(--SHADOW-COLOR-DRUM-CONTAINER-1),
+    0 24px 20px 4px var(--SHADOW-COLOR-DRUM-CONTAINER-2),
+    inset 0 1px 60px var(--SHADOW-COLOR-DRUM-CONTAINER-3),
+    inset 0 0 20px var(--SHADOW-COLOR-DRUM-CONTAINER-4);
   /* GRADIENTS */
   --GRADIENT-BODY: radial-gradient(
     var(--GRADIENT-COLOR-BODY-1),
@@ -226,6 +236,25 @@ body {
 }
 
 /** || MAIN */
+.main {
+  margin-block-end: 3rem;
+}
+
+.drum__container {
+  background-color: var(--BGCOLOR-DRUM-CONTAINER);
+  box-shadow: var(--BOX-SHADOW-DRUM-CONTAINER);
+  border: var(--BORDER-DRUM-CONTAINER);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  padding: 1.5rem 1.25rem;
+  border-radius: 16px;
+}
+
+.drum__button {
+  border: 1px solid white;
+}
+
 .drum__icon {
   width: 1rem;
   height: auto;
