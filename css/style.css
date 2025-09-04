@@ -125,6 +125,10 @@ ol {
   display: none;
 }
 
+.bold {
+  font-weight: 700;
+}
+
 /** || GENERAL STYLES */
 html {
   font-size: var(--FS);
@@ -135,6 +139,10 @@ body {
   min-height: 100vh;
   background-color: var(--BGCOLOR);
   background-image: var(--GRADIENT-BODY);
+}
+
+.container {
+  padding-inline: 1.5rem;
 }
 
 /** || HEADER */
@@ -194,14 +202,27 @@ body {
   color: var(--FONT-COLOR-THEME-ICON-DARK);
 }
 
+.header__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  padding-block-start: 4rem;
+  margin-block-end: 2rem;
+}
+
 .header__title {
   font-family: var(--FF-TITLE);
   color: var(--FONT-COLOR-HEADER-TITLE);
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 1;
 }
 
 .header__tagline {
   font-family: var(--FF-BODY);
   color: var(--FONT-COLOR-HEADER-TAGLINE);
+  text-align: center;
+  font-size: 0.875rem;
 }
 
 /** || MAIN */
