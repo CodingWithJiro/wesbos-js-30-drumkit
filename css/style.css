@@ -76,6 +76,8 @@ ol {
   --FONT-COLOR-DRUM-KEY: #f5f5f5;
   --FONT-COLOR-FOOTER-TAGLINE: #f5f5f5;
   --COLOR-DRUM-ICON: #f5f5f5;
+  --SHADOW-COLOR-DRUM-CONTAINER-1: hsl(235, 21%, 18%);
+  --SHADOW-COLOR-DRUM-CONTAINER-2: rgba(0, 0, 0, 0.3);
   --GRADIENT-COLOR-BODY-1: #242957;
   --GRADIENT-COLOR-BODY-2: #060621;
 
@@ -91,6 +93,8 @@ ol {
 
   /* SHADOWS */
   --BOX-SHADOW-THEME: 0 0 3px var(--SHADOW-COLOR-THEME);
+  --BOX-SHADOW-DRUM-CONTAINER: 0 24px 0 var(--SHADOW-COLOR-DRUM-CONTAINER-1),
+    0 24px 20px 4px var(--SHADOW-COLOR-DRUM-CONTAINER-2);
 
   /* GRADIENTS */
   --GRADIENT-BODY: radial-gradient(
@@ -233,6 +237,7 @@ body {
 
 .drum__container {
   background-color: var(--BGCOLOR-DRUM-CONTAINER);
+  box-shadow: var(--BOX-SHADOW-DRUM-CONTAINER);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
