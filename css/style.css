@@ -56,7 +56,8 @@ ol {
 /* CHANGE THE DATA BELOW AS NEEDED */
 :root {
   /* FONTS */
-  --FF: "Arial", sans-serif;
+  --FF-TITLE: "Audiowide", sans-serif;
+  --FF-BODY: "Roboto", sans-serif;
   --FS: 1rem;
 
   /* COLORS */
