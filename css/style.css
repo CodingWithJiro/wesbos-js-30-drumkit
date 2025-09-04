@@ -76,6 +76,7 @@ ol {
   --FONT-COLOR-DRUM-KEY: #f5f5f5;
   --FONT-COLOR-FOOTER-TAGLINE: #f5f5f5;
   --COLOR-DRUM-ICON: #f5f5f5;
+  --BORDER-COLOR-DRUM-CONTAINER: rgba(255, 255, 255, 0.12);
   --SHADOW-COLOR-DRUM-CONTAINER-1: hsl(235, 21%, 18%);
   --SHADOW-COLOR-DRUM-CONTAINER-2: rgba(0, 0, 0, 0.3);
   --GRADIENT-COLOR-BODY-1: #242957;
@@ -90,6 +91,7 @@ ol {
 
   /* BORDERS */
   --BORDER-THEME-BUTTON: 1px solid var(--BORDER-COLOR-THEME-BUTTON);
+  --BORDER-DRUM-CONTAINER: 2px solid var(--BORDER-COLOR-DRUM-CONTAINER);
 
   /* SHADOWS */
   --BOX-SHADOW-THEME: 0 0 3px var(--SHADOW-COLOR-THEME);
@@ -238,6 +240,7 @@ body {
 .drum__container {
   background-color: var(--BGCOLOR-DRUM-CONTAINER);
   box-shadow: var(--BOX-SHADOW-DRUM-CONTAINER);
+  border: var(--BORDER-DRUM-CONTAINER);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
