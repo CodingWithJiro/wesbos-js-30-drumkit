@@ -260,7 +260,7 @@ body {
 }
 
 .drum__icon {
-  width: 1rem;
+  width: 1.875rem;
   height: auto;
   color: var(--COLOR-DRUM-ICON);
 }
