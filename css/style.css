@@ -274,7 +274,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1.25rem;
   row-gap: 1.5rem;
-  padding: 1.5rem 1.25rem;
+  padding: 1.5rem 1.25rem 2rem;
   border-radius: 16px;
 }
 
