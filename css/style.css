@@ -401,6 +401,10 @@ body {
 }
 
 @media screen and (min-width: 48rem) {
+  .drum__button {
+    padding-block-end: 1rem;
+  }
+
   .drum__key {
     display: block;
   }
