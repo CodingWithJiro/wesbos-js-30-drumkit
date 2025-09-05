@@ -258,8 +258,7 @@ body {
   font-family: var(--FF-BODY);
   color: var(--FONT-COLOR-HEADER-TAGLINE);
   text-align: center;
-  font-size: 0.875rem;
-  font-size: 1.375rem;
+  font-size: clamp(0.875rem, 0.3036rem + 1.1905vw, 1.375rem);
 }
 
 /** || MAIN */
