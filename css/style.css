@@ -149,6 +149,7 @@ body {
   min-height: 100vh;
   background-color: var(--BGCOLOR);
   background-image: var(--GRADIENT-BODY);
+  position: relative;
 }
 
 .container {
@@ -269,11 +270,18 @@ body {
 /** || FOOTER */
 .footer__container {
   padding-block: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
 }
 
 .footer__tagline {
   font-family: var(--FF-BODY);
   color: var(--FONT-COLOR-FOOTER-TAGLINE);
+  text-align: center;
+  font-size: 0.875rem;
 }
 
 /** || MEDIA QUERY (DEVICE WIDTH) */
