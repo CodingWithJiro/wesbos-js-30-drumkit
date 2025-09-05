@@ -88,6 +88,12 @@ ol {
   --SHADOW-COLOR-DRUM-CONTAINER-2: rgba(0, 0, 0, 0.3);
   --SHADOW-COLOR-DRUM-CONTAINER-3: rgba(0, 0, 0, 0.07);
   --SHADOW-COLOR-DRUM-CONTAINER-4: rgba(255, 255, 255, 0.05);
+  --SHADOW-COLOR-DRUM-BUTTON-DEFAULT: hsl(235, 21%, 15%);
+  --SHADOW-COLOR-DRUM-BUTTON-QS: hsl(140, 69%, 40%);
+  --SHADOW-COLOR-DRUM-BUTTON-WX: hsl(14, 89%, 54%);
+  --SHADOW-COLOR-DRUM-BUTTON-EZ: hsl(266, 89%, 54%);
+  --SHADOW-COLOR-DRUM-BUTTON-AC: hsl(313, 82%, 60%);
+  --SHADOW-COLOR-DRUM-BUTTON-D: hsl(209, 96%, 49%);
   --GRADIENT-COLOR-BODY-1: #242957;
   --GRADIENT-COLOR-BODY-2: #060621;
 
@@ -114,6 +120,16 @@ ol {
     var(--GRADIENT-COLOR-BODY-1),
     var(--GRADIENT-COLOR-BODY-2)
   );
+  --BOX-SHADOW-DRUM-BUTTON-QS: 0 10px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-QS),
+    0 15px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+  --BOX-SHADOW-DRUM-BUTTON-WX: 0 10px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-WX),
+    0 15px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+  --BOX-SHADOW-DRUM-BUTTON-EZ: 0 10px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-EZ),
+    0 15px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+  --BOX-SHADOW-DRUM-BUTTON-AC: 0 10px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-AC),
+    0 15px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+  --BOX-SHADOW-DRUM-BUTTON-D: 0 10px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-D),
+    0 15px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
 }
 
 /** || UTILITY CLASSES */
@@ -271,38 +287,47 @@ body {
 
 .drum__button[data-key="q"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-QS);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-QS);
 }
 
 .drum__button[data-key="w"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-WX);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-WX);
 }
 
 .drum__button[data-key="e"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-EZ);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-EZ);
 }
 
 .drum__button[data-key="a"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-AC);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-AC);
 }
 
 .drum__button[data-key="s"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-QS);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-QS);
 }
 
 .drum__button[data-key="d"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-D);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-D);
 }
 
 .drum__button[data-key="z"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-EZ);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-EZ);
 }
 
 .drum__button[data-key="x"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-WX);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-WX);
 }
 
 .drum__button[data-key="c"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-AC);
+  box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-AC);
 }
 
 .drum__icon {
