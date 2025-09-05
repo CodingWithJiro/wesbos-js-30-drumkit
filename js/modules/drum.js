@@ -1,3 +1,5 @@
+import { addActiveClass, addActiveClassThruKey } from "./ui.js";
+
 //* DRUM.JS SCRIPT
 const buttons = document.querySelectorAll(".drum__button");
 const sounds = document.querySelectorAll(".drum__audio");
@@ -23,12 +25,14 @@ function initDrumButtons() {
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
       playSound(button);
+      addActiveClass(button);
     });
 
     window.addEventListener("keydown", (e) => {
       const key = e.key;
       if (keys.includes(key)) {
         playSoundThruKey(key);
+        addActiveClassThruKey(key);
       }
     });
   });
