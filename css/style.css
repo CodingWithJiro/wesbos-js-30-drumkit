@@ -78,6 +78,7 @@ ol {
   --FONT-COLOR-FOOTER-LINK: #00e5ff;
   --COLOR-DRUM-ICON: #f5f5f5;
   --BORDER-COLOR-DRUM-CONTAINER: rgba(255, 255, 255, 0.12);
+  --BORDER-COLOR-DRUM-BUTTON: rgba(255, 255, 255, 0.12);
   --SHADOW-COLOR-DRUM-CONTAINER-1: hsl(235, 21%, 18%);
   --SHADOW-COLOR-DRUM-CONTAINER-2: rgba(0, 0, 0, 0.3);
   --SHADOW-COLOR-DRUM-CONTAINER-3: rgba(0, 0, 0, 0.07);
@@ -95,6 +96,7 @@ ol {
   /* BORDERS */
   --BORDER-THEME-BUTTON: 1px solid var(--BORDER-COLOR-THEME-BUTTON);
   --BORDER-DRUM-CONTAINER: 2px solid var(--BORDER-COLOR-DRUM-CONTAINER);
+  --BORDER-DRUM-BUTTON: 1px solid var(--BORDER-COLOR-DRUM-BUTTON);
 
   /* SHADOWS */
   --BOX-SHADOW-THEME: 0 0 3px var(--SHADOW-COLOR-THEME);
@@ -254,7 +256,7 @@ body {
 }
 
 .drum__button {
-  border: 1px solid white;
+  border: var(--BORDER-DRUM-BUTTON);
 }
 
 .drum__icon {
