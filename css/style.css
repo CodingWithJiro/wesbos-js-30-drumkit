@@ -367,7 +367,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 0.6rem;
-  padding-block-end: 0.25em;
   display: none;
 }
 
@@ -402,6 +401,9 @@ body {
 }
 
 @media screen and (min-width: 48rem) {
+  .drum__key {
+    display: block;
+  }
 }
 
 /** || MEDIA QUERY (REDUCED MOTION) */
