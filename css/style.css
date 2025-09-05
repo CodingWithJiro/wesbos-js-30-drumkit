@@ -277,6 +277,8 @@ body {
   padding: 1.5rem 1.25rem 2rem;
   border-radius: 16px;
   min-width: 17rem;
+  max-width: 48rem;
+  margin-inline: auto;
 }
 
 .drum__button {
