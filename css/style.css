@@ -267,6 +267,10 @@ body {
 }
 
 /** || FOOTER */
+.footer__container {
+  padding-block: 1rem;
+}
+
 .footer__tagline {
   font-family: var(--FF-BODY);
   color: var(--FONT-COLOR-FOOTER-TAGLINE);
