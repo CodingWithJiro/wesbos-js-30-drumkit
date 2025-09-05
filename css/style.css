@@ -384,7 +384,7 @@ body {
   font-family: var(--FF-BODY);
   color: var(--FONT-COLOR-FOOTER-TAGLINE);
   text-align: center;
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.2357rem + 1.0714vw, 1.2rem);
 }
 
 .footer__link {
