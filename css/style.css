@@ -284,6 +284,8 @@ body {
   padding-block-start: 0.5rem;
   padding-block-end: 1rem;
   border-radius: 16px;
+  user-select: none;
+  cursor: pointer;
 }
 
 .drum__button.active {
@@ -403,7 +405,7 @@ body {
   }
 
   .drum__button {
-    transition: transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
+    transition: transform 0.07s linear, box-shadow 0.07s linear;
   }
 
   /* ADD OTHER TRANSITIONS AND ANIMATIONS HERE */
