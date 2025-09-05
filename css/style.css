@@ -265,6 +265,7 @@ body {
   position: relative;
   padding-block-start: 0.5rem;
   padding-block-end: 1rem;
+  border-radius: 16px;
 }
 
 .drum__button[data-key="q"] {
