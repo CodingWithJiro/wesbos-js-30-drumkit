@@ -71,6 +71,11 @@ ol {
   /* COLORS */
   --BGCOLOR: #060621;
   --BGCOLOR-DRUM-CONTAINER: #2c2e43;
+  --BGCOLOR-DRUM-BUTTON-QS: #23bc57;
+  --BGCOLOR-DRUM-BUTTON-WX: #f36133;
+  --BGCOLOR-DRUM-BUTTON-EZ: #8733f3;
+  --BGCOLOR-DRUM-BUTTON-AC: #ee58cd;
+  --BGCOLOR-DRUM-BUTTON-D: #148cfa;
   --FONT-COLOR-HEADER-TITLE: #f5f5f5;
   --FONT-COLOR-HEADER-TAGLINE: #f5f5f5;
   --FONT-COLOR-DRUM-KEY: #f5f5f5;
@@ -260,6 +265,42 @@ body {
   position: relative;
   padding-block-start: 0.5rem;
   padding-block-end: 1rem;
+}
+
+.drum__button[data-key="q"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-QS);
+}
+
+.drum__button[data-key="w"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-WX);
+}
+
+.drum__button[data-key="e"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-EZ);
+}
+
+.drum__button[data-key="a"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-AC);
+}
+
+.drum__button[data-key="s"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-QS);
+}
+
+.drum__button[data-key="d"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-D);
+}
+
+.drum__button[data-key="z"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-EZ);
+}
+
+.drum__button[data-key="x"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-WX);
+}
+
+.drum__button[data-key="c"] {
+  background-color: var(--BGCOLOR-DRUM-BUTTON-AC);
 }
 
 .drum__icon {
