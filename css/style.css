@@ -257,6 +257,7 @@ body {
 
 .drum__button {
   border: var(--BORDER-DRUM-BUTTON);
+  position: relative;
 }
 
 .drum__icon {
@@ -268,6 +269,10 @@ body {
 .drum__key {
   font-family: var(--FF-TITLE);
   color: var(--FONT-COLOR-DRUM-KEY);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /** || FOOTER */
