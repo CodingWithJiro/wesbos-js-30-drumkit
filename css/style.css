@@ -115,11 +115,6 @@ ol {
     0 24px 20px 4px var(--SHADOW-COLOR-DRUM-CONTAINER-2),
     inset 0 1px 60px var(--SHADOW-COLOR-DRUM-CONTAINER-3),
     inset 0 0 20px var(--SHADOW-COLOR-DRUM-CONTAINER-4);
-  /* GRADIENTS */
-  --GRADIENT-BODY: radial-gradient(
-    var(--GRADIENT-COLOR-BODY-1),
-    var(--GRADIENT-COLOR-BODY-2)
-  );
   --BOX-SHADOW-DRUM-BUTTON-QS: 0 10px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-QS),
     0 15px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
   --BOX-SHADOW-DRUM-BUTTON-WX: 0 10px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-WX),
@@ -130,6 +125,12 @@ ol {
     0 15px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
   --BOX-SHADOW-DRUM-BUTTON-D: 0 10px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-D),
     0 15px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+
+  /* GRADIENTS */
+  --GRADIENT-BODY: radial-gradient(
+    var(--GRADIENT-COLOR-BODY-1),
+    var(--GRADIENT-COLOR-BODY-2)
+  );
 }
 
 /** || UTILITY CLASSES */
@@ -285,6 +286,20 @@ body {
   border-radius: 16px;
 }
 
+.drum__button.active {
+  transform: translateY(5px);
+  --BOX-SHADOW-DRUM-BUTTON-QS: 0 5px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-QS),
+    0 10px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+  --BOX-SHADOW-DRUM-BUTTON-WX: 0 5px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-WX),
+    0 10px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+  --BOX-SHADOW-DRUM-BUTTON-EZ: 0 5px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-EZ),
+    0 10px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+  --BOX-SHADOW-DRUM-BUTTON-AC: 0 5px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-AC),
+    0 10px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+  --BOX-SHADOW-DRUM-BUTTON-D: 0 5px 0 1px var(--SHADOW-COLOR-DRUM-BUTTON-D),
+    0 10px 0 5px var(--SHADOW-COLOR-DRUM-BUTTON-DEFAULT);
+}
+
 .drum__button[data-key="q"] {
   background-color: var(--BGCOLOR-DRUM-BUTTON-QS);
   box-shadow: var(--BOX-SHADOW-DRUM-BUTTON-QS);
@@ -385,6 +400,10 @@ body {
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
+  }
+
+  .drum__button {
+    transition: transform 0.07s ease-in-out, box-shadow 0.07s ease-in-out;
   }
 
   /* ADD OTHER TRANSITIONS AND ANIMATIONS HERE */
