@@ -418,7 +418,8 @@ body {
   }
 
   .drum__button {
-    transition: transform 0.07s linear, box-shadow 0.07s linear;
+    transition: transform 0.07s linear, box-shadow 0.07s linear,
+      padding 0.15s ease-in-out;
   }
 
   /* ADD OTHER TRANSITIONS AND ANIMATIONS HERE */
