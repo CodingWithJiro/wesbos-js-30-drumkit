@@ -258,6 +258,8 @@ body {
 .drum__button {
   border: var(--BORDER-DRUM-BUTTON);
   position: relative;
+  padding-block-start: 0.5rem;
+  padding-block-end: 1rem;
 }
 
 .drum__icon {
