@@ -21,7 +21,7 @@
 ![Learning Path](https://img.shields.io/badge/learning%20path-month%206-blue)
 ![Views](https://visitor-badge.laobi.icu/badge?page_id=CodingWithJiro.wesbos-js-30-drumkit&left_text=repo%20views)
 
-## ℹ️ ADD PROJECT SUBTITLE
+## ℹ️ Keyboard Warrior: An Interactive Drum Mashing Site Inspired from Wes Bos' #JavaScript30 Course
 
 | _Mobile Preview (375x812)_                                   | _Desktop Preview (1440x960)_                                    |
 | ------------------------------------------------------------ | --------------------------------------------------------------- |
