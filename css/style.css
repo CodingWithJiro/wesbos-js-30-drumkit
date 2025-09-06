@@ -443,12 +443,28 @@ body {
     scroll-behavior: smooth;
   }
 
-  .drum__button {
-    transition: transform 0.07s linear, box-shadow 0.07s linear,
-      padding 0.15s ease-in-out;
+  body {
+    transition: background-color 0.3s ease-in-out;
   }
 
-  /* ADD OTHER TRANSITIONS AND ANIMATIONS HERE */
+  .header__title,
+  .header__tagline,
+  .drum__icon,
+  .drum__key,
+  .footer__tagline,
+  .footer__link {
+    transition: color 0.3s ease-in-out;
+  }
+
+  .drum__container {
+    transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out,
+      border-color 0.3s ease-in-out;
+  }
+
+  .drum__button {
+    transition: transform 0.07s linear, box-shadow 0.07s linear,
+      padding 0.15s ease-in-out, border-color 0.07s linear;
+  }
 
   .theme {
     transition: box-shadow 0.3s ease-in-out;
