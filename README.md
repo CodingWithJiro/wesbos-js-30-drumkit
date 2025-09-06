@@ -68,7 +68,10 @@ _This ensures I maintain a professional workflow, even as a solo developer._
 
 ## 🧠 What I Learned
 
-INSERT LIST OF WHAT I LEARNED MAKING THIS PROJECT
+- I started implementing granular branching and commit workflow together with creating pull requests similar to a team dev environment
+- Handling keyboard vs click events with shared logic using `click` and `keydown` events
+- Designing responsive and accessible button components from a Figma design file
+- Practiced submitting professional PRs with proper structure and labelling
 
 ---
 
