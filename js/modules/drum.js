@@ -29,7 +29,7 @@ function initDrumButtons() {
     });
 
     window.addEventListener("keydown", (e) => {
-      const key = e.key;
+      const key = e.key.toLowerCase();
       if (keys.includes(key)) {
         playSoundThruKey(key);
         addActiveClassThruKey(key);
