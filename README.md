@@ -36,7 +36,9 @@ This project is inspired from Wes Bos' free [#JavaScript30 Course](https://javas
 
 ## 🔍 Overview
 
-WHAT THIS PROJECT CONTAINS WITH 1-2 PARAGRAPHS WITH 2-3 SENTENCES EACH.
+Keyboard Warrior replicates and expands on Wes Bos' JavaScript30 Drum Kit challenge.
+
+This project mainly focuses on UI polish, interactive button states, responsive design, dark/light modes, and accessibility for both mouse and keyboard users.
 
 ---
 
