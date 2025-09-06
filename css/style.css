@@ -69,33 +69,33 @@ ol {
   --FS: 1rem;
 
   /* COLORS */
-  --BGCOLOR: #060621;
-  --BGCOLOR-DRUM-CONTAINER: #2c2e43;
+  --BGCOLOR: #fafafa;
+  --BGCOLOR-DRUM-CONTAINER: #ffffff;
   --BGCOLOR-DRUM-BUTTON-QS: #23bc57;
   --BGCOLOR-DRUM-BUTTON-WX: #f36133;
   --BGCOLOR-DRUM-BUTTON-EZ: #8733f3;
   --BGCOLOR-DRUM-BUTTON-AC: #ee58cd;
   --BGCOLOR-DRUM-BUTTON-D: #148cfa;
-  --FONT-COLOR-HEADER-TITLE: #f5f5f5;
-  --FONT-COLOR-HEADER-TAGLINE: #f5f5f5;
-  --FONT-COLOR-DRUM-KEY: #f5f5f5;
-  --FONT-COLOR-FOOTER-TAGLINE: #f5f5f5;
-  --FONT-COLOR-FOOTER-LINK: #00e5ff;
-  --COLOR-DRUM-ICON: #f5f5f5;
-  --BORDER-COLOR-DRUM-CONTAINER: rgba(255, 255, 255, 0.12);
-  --BORDER-COLOR-DRUM-BUTTON: rgba(255, 255, 255, 0.12);
-  --SHADOW-COLOR-DRUM-CONTAINER-1: hsl(235, 21%, 18%);
-  --SHADOW-COLOR-DRUM-CONTAINER-2: rgba(0, 0, 0, 0.3);
-  --SHADOW-COLOR-DRUM-CONTAINER-3: rgba(0, 0, 0, 0.07);
-  --SHADOW-COLOR-DRUM-CONTAINER-4: rgba(255, 255, 255, 0.05);
-  --SHADOW-COLOR-DRUM-BUTTON-DEFAULT: hsl(235, 21%, 15%);
+  --FONT-COLOR-HEADER-TITLE: #1a1a1a;
+  --FONT-COLOR-HEADER-TAGLINE: #333333;
+  --FONT-COLOR-DRUM-KEY: #1a1a1a;
+  --FONT-COLOR-FOOTER-TAGLINE: #333333;
+  --FONT-COLOR-FOOTER-LINK: #0077cc;
+  --COLOR-DRUM-ICON: #222222;
+  --BORDER-COLOR-DRUM-CONTAINER: rgba(0, 0, 0, 0.12);
+  --BORDER-COLOR-DRUM-BUTTON: rgba(0, 0, 0, 0.12);
+  --SHADOW-COLOR-DRUM-CONTAINER-1: rgba(0, 0, 0, 0.1);
+  --SHADOW-COLOR-DRUM-CONTAINER-2: rgba(0, 0, 0, 0.15);
+  --SHADOW-COLOR-DRUM-CONTAINER-3: rgba(0, 0, 0, 0.05);
+  --SHADOW-COLOR-DRUM-CONTAINER-4: rgba(255, 255, 255, 0.6);
+  --SHADOW-COLOR-DRUM-BUTTON-DEFAULT: rgba(0, 0, 0, 0.2);
   --SHADOW-COLOR-DRUM-BUTTON-QS: hsl(140, 69%, 40%);
   --SHADOW-COLOR-DRUM-BUTTON-WX: hsl(14, 89%, 54%);
   --SHADOW-COLOR-DRUM-BUTTON-EZ: hsl(266, 89%, 54%);
   --SHADOW-COLOR-DRUM-BUTTON-AC: hsl(313, 82%, 60%);
   --SHADOW-COLOR-DRUM-BUTTON-D: hsl(209, 96%, 49%);
-  --GRADIENT-COLOR-BODY-1: #242957;
-  --GRADIENT-COLOR-BODY-2: #060621;
+  --GRADIENT-COLOR-BODY-1: #f0f0f0;
+  --GRADIENT-COLOR-BODY-2: #fafafa;
 
   /* THEME TOGGLE COLORS */
   --FONT-COLOR-THEME-ICON-LIGHT: #333;
@@ -135,12 +135,38 @@ ol {
 
 /** || UTILITY CLASSES */
 .dark {
-  --BGCOLOR: #333;
-  /* ADD OTHER DARK COLOR THEME VARIABLES */
+  /* COLORS */
+  --BGCOLOR: #060621;
+  --BGCOLOR-DRUM-CONTAINER: #2c2e43;
+  --BGCOLOR-DRUM-BUTTON-QS: #23bc57;
+  --BGCOLOR-DRUM-BUTTON-WX: #f36133;
+  --BGCOLOR-DRUM-BUTTON-EZ: #8733f3;
+  --BGCOLOR-DRUM-BUTTON-AC: #ee58cd;
+  --BGCOLOR-DRUM-BUTTON-D: #148cfa;
+  --FONT-COLOR-HEADER-TITLE: #f5f5f5;
+  --FONT-COLOR-HEADER-TAGLINE: #f5f5f5;
+  --FONT-COLOR-DRUM-KEY: #f5f5f5;
+  --FONT-COLOR-FOOTER-TAGLINE: #f5f5f5;
+  --FONT-COLOR-FOOTER-LINK: #00e5ff;
+  --COLOR-DRUM-ICON: #f5f5f5;
+  --BORDER-COLOR-DRUM-CONTAINER: rgba(255, 255, 255, 0.12);
+  --BORDER-COLOR-DRUM-BUTTON: rgba(255, 255, 255, 0.12);
+  --SHADOW-COLOR-DRUM-CONTAINER-1: hsl(235, 21%, 18%);
+  --SHADOW-COLOR-DRUM-CONTAINER-2: rgba(0, 0, 0, 0.3);
+  --SHADOW-COLOR-DRUM-CONTAINER-3: rgba(0, 0, 0, 0.07);
+  --SHADOW-COLOR-DRUM-CONTAINER-4: rgba(255, 255, 255, 0.05);
+  --SHADOW-COLOR-DRUM-BUTTON-DEFAULT: hsl(235, 21%, 15%);
+  --SHADOW-COLOR-DRUM-BUTTON-QS: hsl(140, 69%, 40%);
+  --SHADOW-COLOR-DRUM-BUTTON-WX: hsl(14, 89%, 54%);
+  --SHADOW-COLOR-DRUM-BUTTON-EZ: hsl(266, 89%, 54%);
+  --SHADOW-COLOR-DRUM-BUTTON-AC: hsl(313, 82%, 60%);
+  --SHADOW-COLOR-DRUM-BUTTON-D: hsl(209, 96%, 49%);
+  --GRADIENT-COLOR-BODY-1: #242957;
+  --GRADIENT-COLOR-BODY-2: #060621;
 
   /* THEME TOGGLE COLORS */
   --FONT-COLOR-THEME-ICON-DARK: #f1f1f1;
-  --BGCOLOR-THEME-BUTTON: #222;
+  --BGCOLOR-THEME-BUTTON: hsl(235, 21%, 15%);
   --BGCOLOR-THEME-BUTTON-AFTER: #f1f1f1;
   --BORDER-COLOR-THEME-BUTTON: #666;
   --SHADOW-COLOR-THEME: rgba(255, 255, 255, 0.3);
@@ -179,6 +205,10 @@ body {
 
 .container {
   padding-inline: 1.5rem;
+}
+
+:focus-visible {
+  outline-offset: 4px;
 }
 
 /** || HEADER */
@@ -417,12 +447,28 @@ body {
     scroll-behavior: smooth;
   }
 
-  .drum__button {
-    transition: transform 0.07s linear, box-shadow 0.07s linear,
-      padding 0.15s ease-in-out;
+  body {
+    transition: background-color 0.3s ease-in-out;
   }
 
-  /* ADD OTHER TRANSITIONS AND ANIMATIONS HERE */
+  .header__title,
+  .header__tagline,
+  .drum__icon,
+  .drum__key,
+  .footer__tagline,
+  .footer__link {
+    transition: color 0.3s ease-in-out;
+  }
+
+  .drum__container {
+    transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out,
+      border-color 0.3s ease-in-out;
+  }
+
+  .drum__button {
+    transition: transform 0.07s linear, box-shadow 0.07s linear,
+      padding 0.15s ease-in-out, border-color 0.07s linear;
+  }
 
   .theme {
     transition: box-shadow 0.3s ease-in-out;
