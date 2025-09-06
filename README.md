@@ -101,7 +101,7 @@ _This ensures I maintain a professional workflow, even as a solo developer._
 
 ## 🌐 Live Demo
 
-Or you can check out the 👉 [live website here](LINK)
+Or you can check out the 👉 [live website here](https://keyboard-warrior-jiro.netlify.app/)
 
 ---
 
