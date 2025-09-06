@@ -207,6 +207,10 @@ body {
   padding-inline: 1.5rem;
 }
 
+:focus-visible {
+  outline-offset: 4px;
+}
+
 /** || HEADER */
 .theme {
   box-shadow: var(--BOX-SHADOW-THEME);
