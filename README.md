@@ -44,7 +44,11 @@ This project mainly focuses on UI polish, interactive button states, responsive 
 
 ## ✨ Features
 
-INSERT LIST OF PROJECT FEATURES
+- Click or press keys (Q, W, E, A, S, D, Z, X, C) to play drum sounds
+- Real life button press mimic for added interactivity
+- Button UI polish with transitions, shadows, and focus outlines
+- Responsive layout for both mobile and desktop
+- Semantic HTML structure with keyboard navigation support
 
 ---
 
