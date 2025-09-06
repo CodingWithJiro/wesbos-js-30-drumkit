@@ -28,15 +28,9 @@
 | ![Mobile](./assets/img/site-preview-mobile-dark_375x812.png) | ![Desktop](./assets/img/site-preview-desktop-dark_1440x960.png) |
 | ![Mobile](./assets/img/site-preview-mobile_375x812.png)      | ![Desktop](./assets/img/site-preview-desktop_1440x960.png)      |
 
-INSERT A BRIEF DESCRIPTION OF THE PROJECT
+A browser-based drum kit app where you can mash keys or click buttons to play sounds in real time.
 
-<!-- FOR FRONTEND MENTOR PROJECTS ONLY -->
-
-Created as part of the building challenges from [Frontend Mentor](https://www.frontendmentor.io/).
-
-<!-- FOR FREECODECAMP LAB PROJECTS ONLY -->
-
-Created as part of the lab challenges from [**freeCodeCamp.org**](https://www.freecodecamp.org/learn/full-stack-developer/) JavaScript course.
+This project is inspired from Wes Bos' free [#JavaScript30 Course](https://javascript30.com/)
 
 ---
 
