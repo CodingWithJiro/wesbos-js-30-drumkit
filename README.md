@@ -88,9 +88,7 @@ _This ensures I maintain a professional workflow, even as a solo developer._
 
 ## 🎨 Design Reference & Tools
 
-- JPG design image
 - Figma
-- PerfectPixel
 
 ---
 
