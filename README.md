@@ -31,7 +31,7 @@
 
 A browser-based drum kit app where you can mash keys or click buttons to play sounds in real time.
 
-This project is inspired from Wes Bos' free [#JavaScript30 Course](https://javascript30.com/)
+This project is inspired from Wes Bos' free **[#JavaScript30 Course](https://javascript30.com/)**
 
 ---
 
@@ -59,9 +59,9 @@ This project mainly focuses on UI polish, interactive button states, responsive 
 
 > Click to view the full branch and merge history
 
-This project adapts a [granular branching and commit workflow](https://github.com/CodingWithJiro/wesbos-js-30-drumkit/network) to simulate team collaboration. Each feature, fix, documentation, and chore is tracked in its own branch with descriptive commits.
+This project adapts a **[granular branching and commit workflow](https://github.com/CodingWithJiro/wesbos-js-30-drumkit/network)** to simulate team collaboration. Each feature, fix, documentation, and chore is tracked in its own branch with descriptive commits.
 
-Each [pull request](https://github.com/CodingWithJiro/wesbos-js-30-drumkit/pulls?q=is%3Apr+is%3Aclosed) I created contains a clear description, change list, screenshots for UI updates, and reviewer notes.
+Each **[pull request](https://github.com/CodingWithJiro/wesbos-js-30-drumkit/pulls?q=is%3Apr+is%3Aclosed)** I created contains a clear description, change list, screenshots for UI updates, and reviewer notes.
 
 _This ensures I maintain a professional workflow, even as a solo developer._
 
@@ -102,7 +102,7 @@ _This ensures I maintain a professional workflow, even as a solo developer._
 
 ## Live Demo
 
-Or you can check out the [live website here](https://keyboard-warrior-jiro.netlify.app/)
+Or you can check out the **[live website here](https://keyboard-warrior-jiro.netlify.app/)**
 
 ---
 
@@ -110,7 +110,7 @@ Or you can check out the [live website here](https://keyboard-warrior-jiro.netli
 
 [![Lighthouse Report Preview](./assets/img/lighthouse-report.png)](./assets/downloads/lighthouse-performance-report.pdf)
 
-A **Google Lighthouse** audit was conducted on the final version of this project. You can view the full report [here](./assets/downloads/lighthouse-performance-report.pdf).
+A **Google Lighthouse** audit was conducted on the final version of this project. You can view the **[full report here](./assets/downloads/lighthouse-performance-report.pdf)**.
 
 ---
 
